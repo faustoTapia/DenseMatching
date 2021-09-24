@@ -1,0 +1,1 @@
+python test_models.py --model PDCNet --pre_trained_model megadepth --path_query_image images/piazza_san_marco_0.jpg --path_reference_image images/piazza_san_marco_1.jpg --write_dir evaluation/ PDCNet --multi_stage_type multiscale_homo_from_quarter_resolution_uncertainty --mask_type proba_interval_1_above_10
